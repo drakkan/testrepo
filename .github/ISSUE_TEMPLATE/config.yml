@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
   - name: Name 
-    url: example@example.com
+    url: https://example.com 
     about: >
         desc bla bla bla.
