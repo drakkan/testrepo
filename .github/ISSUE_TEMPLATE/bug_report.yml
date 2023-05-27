@@ -8,6 +8,7 @@ body:
       value: |
         ### 👍 Thank you for contributing to our project!
         Before asking for help please check the [support policy](https://github.com/drakkan/sftpgo#support-policy).
+        If you are a commercial user or a project sponsor please contact us using the dedicated [email address](mailto:support@sftpgo.com).
   - type: checkboxes
     id: before-posting
     attributes:
@@ -71,6 +72,15 @@ body:
         - "Community Deb package"
         - "Community RPM package"
         - "Other"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Configuration
+      description: "Describe your customizations to the configuration: both config file changes and overrides via environment variables"
+      value: config
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
