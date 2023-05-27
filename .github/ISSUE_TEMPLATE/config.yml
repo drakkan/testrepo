@@ -1,6 +1,10 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Name 
-    url: https://example.com 
+  - name: Commercial Support
+    url: https://sftpgo.com/
     about: >
-        desc bla bla bla.
+      If you need Professional support, so your reports are prioritized and resolved more quickly.
+      If you are a commercial user or a project sponsor please contact us using the dedicated [email address](mailto:support@sftpgo.com).
+  - name: GitHub Community Discussions
+    url: https://github.com/drakkan/sftpgo/discussions
+    about: Please ask and answer questions here.
